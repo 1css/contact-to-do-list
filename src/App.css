@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+  gap: 10px; /* Space between items */
+  margin-top: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px; /* Fixed width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.item-text {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.item-action {
+  cursor: pointer;
+  color: #ff0000; /* Color for the delete icon */
+}
+
+.item-action:hover {
+  color: #cc0000; /* Darker red on hover */
+}
+
+.input-field{
+  width: 200px;
+  height: 33px;
+  margin-top: 5px;
+  border-radius: 5px;
+  
+}
+#button-key{
+  margin-left: 150px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow:0 4px 8px rgba(201, 196, 196, 0.846);
+  margin-top: 10px;
+}
+/* Container for each contact item */
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for each contact item */
+.contact-item:hover {
+  background-color: #f9f9f9;
+}
+
+/* Text container */
+.item-text {
+  flex: 1;
+}
+
+/* ID and other details */
+.item-text h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.item-text p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Action buttons */
+.item-action {
+  display: flex;
+  align-items: center;
+}
+
+/* Icons styling */
+.item-action svg {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for icons */
+.item-action svg:hover {
+  color: #007bff;
+}
+.create-section{
+  margin-top: 10px;
+}
+
+
+
+
+
+
