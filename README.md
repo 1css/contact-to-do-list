@@ -1,3 +1,33 @@
+## Todo List with Contact and Phone Management
+A simple React-based application to manage a list of contacts with their phone numbers. Users can add new contacts, edit existing ones, and delete contacts with a confirmation prompt, providing an easy-to-use interface for managing personal contacts.
+
+#### Features
+* Add Contacts: Enter contact names and phone numbers to the list.
+* Edit Contacts: Update existing contact details with a click.
+* Delete Contacts: Remove contacts with a confirmation prompt.
+* Dynamic UI: Contact list updates in real-time with React state management.
+
+
+#### Technologies Used
+* ReactJS: Core framework for building the user interface.
+* React Hooks: Manage state with useState for dynamic updates.
+* react-icons: Add edit (FaEdit) and delete (MdDelete) icons for functionality.
+
+
+Installation
+Clone the repository:
+#### `git clone https://github.com/yourusername/todo-list-contact-management.git`
+
+Navigate to the project directory:
+#### `cd todo-list-contact-management`
+
+Install dependencies:
+#### `npm install`
+
+Start the app
+#### `npm start`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
